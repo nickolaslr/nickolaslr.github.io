@@ -1,0 +1,236 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    justify-items: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 15px;
+    text-align: center;
+    margin: 13px;
+}
+
+menu div{
+    padding-left: 15px;
+    font-size: 13px;
+    
+}
+
+.dotMenu{
+    padding-left: 20px;
+    padding-right: 0px;
+    border: none;
+}
+
+.dotMenu button{
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dotMenu button:hover{
+    border-spacing:50px;
+    border-radius: 60px;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.button{
+    background-color: rgb(20, 141, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button:hover{
+    background-color: rgb(20, 145, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    box-shadow: 0px 1px 3px rgba(49, 200, 238, 0.3);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 290px;
+}
+
+.logo div{
+    align-self: flex-end;
+}
+
+.googleLogo{
+    width: 272px;
+}
+
+.searchField{
+    display: block;    
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.form{
+    border: solid 1px rgba(219, 219, 219, 0.9);
+    border-radius: 30px;
+    height:45px;
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.form:hover{
+    box-shadow: 1px 1px 5px 2px rgba(196, 196, 196, 0.3);
+}
+
+.magnify{
+    height: 16px;
+}
+
+.textSearch{
+    width: 81%;
+    height: 70%;
+    border: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textSearch:focus{
+    outline: 0;
+    border: none;
+}
+
+.thirdSearch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mic{
+    margin-left: 10px;
+}
+
+.searchButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;    
+}
+
+.underButton{
+    background-color: #f8f8f9;
+    border: none;
+    border-radius: 5px;
+    color: rgb(53, 53, 53);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.underButton:hover{
+    background-color: #f8f8f9;
+    border: 1px solid rgba(219, 219, 219, 0.8);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0px 1px 3px rgba(216, 216, 216, 0.3);
+}
+
+.blank{
+    width: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.country{
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f3;
+    color: #6e6e70;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgb(128, 128, 128, .2);
+}
+
+.more{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #f2f2f3;
+    color: #6e6e70;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 1px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #6e6e70;
+    text-align: center;    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.more a{    
+    padding-right: 30px;
+}
+
+@media (max-width:700px) {
+
+    .form{
+        
+        width: auto;
+    }
+
+}
