@@ -1,0 +1,12 @@
+table, th, td{
+    border: solid lightgray 1px;
+    width: auto;    
+}
+
+th{
+    background-color: lightgrey;
+}
+
+tr:nth-child(even) {
+    background: greenyellow;
+}
