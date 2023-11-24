@@ -7,19 +7,24 @@ random.shuffle(hiragana)
 score = 0
 count = 0
 
-print("Welcome to the hiragana quiz and good luck. You can type EXIT anytime to give up.")
+print("Welcome to the hiragana quiz and good luck. You can type EXIT to give up.")
+print(" ")
 
 for i in hiragana:
     
     print("What hiragana character is this: ", i[0])
     count += 1
+
     romanji = input("In romanji this is: ")
-    if romanji == "EXIT" or "exit":
-        break
-    if romanji == i[1]:
+    
+    if romanji.lower() == i[1]:
         print("Correct")
         print(" ")
         score += 1
+
+    elif romanji.lower() == "exit":
+        break
+
     else:
         print("Wrong. The correct answer would be \"",i[1],"\"")
         print(" ")
